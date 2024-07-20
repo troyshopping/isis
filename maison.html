@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison | isis.baby</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<style>
+    @font-face {
+        font-family: meow;
+        src: url(/assets/font/JetBrainsMono-Regular-a0bf60ef.ttf);
+    }
+
+    body {
+        font-family: meow;
+        color: white;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+    }
+    
+    .social-box {
+        position: relative;
+        bottom: 12px;
+        margin: 10px;
+        width: 150px;
+        height: 40px;
+        border: dotted 2px rgb(0, 10, 201);
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        border-radius: 9px;
+    }
+
+    .social-box:hover {
+        background-color: rgba(95, 100, 201, 0.336);
+    }
+
+    .social-box-contents {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4.3vh;
+    }
+
+    #x {
+        color: rgb(0, 26, 255);
+        text-shadow: 0 0 10px #000dff, 0 0 20px #000dff;
+    }
+
+    #social {
+        position: relative;
+        bottom: 2px;
+    }
+
+    .social-box-container {
+        display: flex;
+        margin-left: 13px;
+    }
+
+    .pfp img {
+        border: 2px solid rgb(0, 0, 201);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="pfp"><img src="/assets/img/maison.png" draggable="false" width="90px" style="border-radius: 100%;"></div>
+            <h3>Maison<span id="x" >´ཀ`</span></h3>
+            <p>^~(^o^)~^</p>
+            <p>------- Socials -------</p>
+            <div class="socials">
+                <div class="social-box-container">
+                        <div class="social-box">
+                            <div class="social-box-contents">
+                                <a target="_blank" href="https://discord.com/users/1255620613826023586"><i class="fa-brands fa-discord fa-sm"></i></a> <a target="_blank" href="https://discord.com/users/1255620613826023586"><span id="social" >-@m.csv</span></a>
+                            </div>
+                        </div>
+
+                    <div class="social-box">
+                        <div class="social-box-contents">
+                            <a target="_blank" href="https://wock.lol"><i class="fa-solid fa-globe fa-sm"></i></a> <a target="_blank" href="https://wock.lol"><span id="social" >-wock.lol</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
